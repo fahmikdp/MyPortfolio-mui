@@ -72,31 +72,31 @@ const ResponsiveAppBar = () => {
                 display: { xs: 'block', md: 'none' },
               }} className='app-bar'
             >
-              <Link to="/" className="btn">
+              <Link to="/MyPortfolio-mui/" className="btn">
                 <MenuItem onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">Home</Typography>
                 </MenuItem>
                 </Link>
 
-                <Link to="/about" className="btn">
+                <Link to="/MyPortfolio-mui/about" className="btn">
                 <MenuItem onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">About</Typography>
                 </MenuItem>
                 </Link>
 
-                <Link to="/skills" className="btn">
+                <Link to="/MyPortfolio-mui/skills" className="btn">
                 <MenuItem onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">Skills</Typography>
                 </MenuItem>
                 </Link>
 
-                <Link to="/works" className="btn">
+                <Link to="/MyPortfolio-mui/works" className="btn">
                 <MenuItem onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">Works</Typography>
                 </MenuItem>
                 </Link>
 
-                <Link to="/contact" className="btn">
+                <Link to="/MyPortfolio-mui/contact" className="btn">
                 <MenuItem onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">Contact</Typography>
                 </MenuItem>

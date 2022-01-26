@@ -17,11 +17,11 @@ function App(props) {
     <div className="App">
       <ResponsiveAppBar /> 
       <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/skills" component={Skills} />
-          <Route path="/works" component={Works} />
-          <Route path="/contact" component={Contact} />
+          <Route exact path="/MyPortfolio-mui/" component={Home} />
+          <Route path="/MyPortfolio-mui/about" component={About} />
+          <Route path="/MyPortfolio-mui/skills" component={Skills} />
+          <Route path="/MyPortfolio-mui/works" component={Works} />
+          <Route path="/MyPortfolio-mui/contact" component={Contact} />
         </Switch>
     </div>
     </Router>
