@@ -50,13 +50,13 @@ export default function Home() {
                         alt="Fahmi Kurnia"
                         src={profilImg}/>
 
-                        <Link to='/project-mui/work' className='link'>
+                        <Link to='/MyPortfolio-mui/works' className='link'>
                             <Button variant="contained" className="btn" letterSpacing={1}>
                                 <WorkIcon fontSize='small' />
                                 &nbsp;My Projects
                             </Button>
                         </Link>
-                        <Link to='/contact' className='link'>
+                        <Link to='/MyPortfolio-mui/contact' className='link'>
                             <Button variant="contained" className="btn" letterSpacing={1}>
                                 <ContactIcon fontSize="medium" />
                                 &nbsp;contact me
