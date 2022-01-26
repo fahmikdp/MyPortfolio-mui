@@ -7,6 +7,7 @@ import {
     Link,
     IconButton,
     Button} from '@mui/material'
+import { Link } from "react-router-dom";
 import profilImg from '../img/homepoto.png'
 import GithubLogo from '@mui/icons-material/GitHub'
 import IgLogo from '@mui/icons-material/Instagram'
@@ -52,7 +53,7 @@ export default function Home() {
 
                         <Link to='/MyPortfolio-mui/works' className='link'>
                             <Button variant="contained" className="btn" letterSpacing={1}>
-                                <WorkIcon fontSize='small' />
+                                <WorkIcon fontSize='medium' />
                                 &nbsp;My Projects
                             </Button>
                         </Link>
