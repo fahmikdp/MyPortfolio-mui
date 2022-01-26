@@ -116,7 +116,7 @@ const ResponsiveAppBar = () => {
           
         
           <Box sx={{ flexGrow: 1.5, float:'right', display: { xs: 'none', md: 'flex' }}}>
-          <Link to="/" className="btn">
+          <Link to="/MyPortfolio-mui/" className="btn">
               <Button
                 className='btn-link'
                 onClick={handleCloseNavMenu}
@@ -125,7 +125,7 @@ const ResponsiveAppBar = () => {
                 Home
               </Button>
             </Link>
-            <Link to="/about" className="btn">
+            <Link to="/MyPortfolio-mui/about" className="btn">
               <Button
                 className='btn-link'
                 onClick={handleCloseNavMenu}
@@ -134,7 +134,7 @@ const ResponsiveAppBar = () => {
                 About
               </Button>
             </Link>
-            <Link to="/skills" className="btn">
+            <Link to="/MyPortfolio-mui/skills" className="btn">
               <Button
                 className='btn-link'
                 onClick={handleCloseNavMenu}
@@ -143,7 +143,7 @@ const ResponsiveAppBar = () => {
                 Skills
               </Button>
             </Link>
-            <Link to="/works" className="btn">
+            <Link to="/MyPortfolio-mui/works" className="btn">
               <Button
                 className='btn-link'
                 onClick={handleCloseNavMenu}
@@ -152,7 +152,7 @@ const ResponsiveAppBar = () => {
                 Works
               </Button>
             </Link>
-            <Link to="/contact" className="btn">
+            <Link to="/MyPortfolio-mui/contact" className="btn">
               <Button
                 className='btn-link'
                 onClick={handleCloseNavMenu}
