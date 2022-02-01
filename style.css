@@ -1,216 +1,218 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
-
-*{
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-	font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-	color: black;
+  color: black;
 }
 
 .nav .app-bar,
 .nav .btn,
 .nav .btn-link {
-	font-family: 'Poppins', sans-serif;
-	font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
 }
 
 .home {
-	padding-top: 10em;
-	padding-bottom: 0em;
-  }
+  padding-top: 10em;
+  padding-bottom: 0em;
+}
 
 span {
-	  color: #08BDBA;
-  }
+  color: #08bdba;
+}
 
 .home .home-text {
-	font-family: 'Poppins', sans-serif;
-	font-weight: bold;
-  }
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
 
-.profile-picture{
-  	width: 350px;
-  	border-radius: 100%;
-	display: flex;
-	margin-top: -100px;
-	
+.profile-picture {
+  width: 350px;
+  border-radius: 100%;
+  display: flex;
+  margin-top: -100px;
 }
 
 .skill-picture {
-	margin-top: -120px;
-	width: 400px;
-	border-radius: 5%;
+  margin-top: -120px;
+  width: 400px;
+  border-radius: 5%;
 }
 
 .home .btn {
-	background-color: #08BDBA;
-	margin-right: 14px;
-	margin-top: -15px;
-	font-family: 'Poppins', sans-serif;
-	transition: 0.2s;
-	
+  background-color: #08bdba;
+  margin-right: 14px;
+  margin-top: -15px;
+  font-family: "Poppins", sans-serif;
+  transition: 0.2s;
+  padding: 8px 20px;
+}
+
+.home .link {
+  text-decoration: none;
 }
 
 .home .btn:hover {
-	padding: 8px 20px;
-	background-color: #079c9a;
+  padding: 12px 25px;
+  background-color: #079c9a;
 }
 
 .about .title-typography,
 .skills .title-typography,
 .works .title-typography,
 .contact .title-typography {
-	position: relative;
-	color: #08BDBA;
-	margin-bottom: 15px;
-	font-family: 'Poppins', sans-serif;
-	font-weight: bold;
-	font-size: 33px;
+  position: relative;
+  color: #08bdba;
+  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 33px;
 }
 
 .about .title-typography::after,
 .skills .title-typography::after,
 .works .title-typography::after,
 .contact .title-typography::after {
-	position: absolute;
-	content: '';
-    width: 80px;
-    height: 0.2rem;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 3.4rem;
-	background-color: #08BDBA;
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 0.2rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 3.4rem;
+  background-color: #08bdba;
 }
 
 .about .typography,
 .skills .typography,
 .works .typography {
-	font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .about .profile-picture {
-	width: 300px;
-	margin-top: -75px;
+  width: 300px;
+  margin-top: -75px;
 }
 
 .about .typo-name {
-	font-size: 20px;
-	font-family: 'Poppins', sans-serif;
-	font-weight: bold;
-	letter-spacing: 1px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .skills .progress {
-	margin-bottom: 2em;
-  }
+  margin-bottom: 2em;
+}
 
-  .skills .typography {
-	  font-weight: bold;
-  }
-  
+.skills .typography {
+  font-weight: bold;
+}
+
 .skills .progress progress {
-	width: 100%;
-	height: 20px;
-	background-color: #08BDBA;
-  }
+  width: 100%;
+  height: 20px;
+  background-color: #08bdba;
+}
 
 .skills .progress2 {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 .works .card-works {
-	box-shadow:  5px 5px 3px 4px grey;
-	margin-top: 80px;
+  box-shadow: 5px 5px 3px 4px grey;
+  margin-top: 80px;
 }
 
 .contact .input {
-	width: 500px;
+  width: 500px;
 }
 
 .contact .comment {
-	height: 250px;
+  height: 250px;
 }
 
 .contact .btncontact {
-	background-color: #08BDBA;
-	margin-top: -310px;
-	font-family: 'Poppins', sans-serif;
-	transition: 0.2s;
+  background-color: #08bdba;
+  margin-top: -310px;
+  font-family: "Poppins", sans-serif;
+  transition: 0.2s;
 }
 
 .contact .btncontact:hover {
-	padding: 8px 20px;
-	background-color: #079c9a;
+  padding: 8px 20px;
+  background-color: #079c9a;
 }
 
 @media (max-width: 1000px) {
-	.home {
-	  padding-top: 1em;
-	  padding-bottom: 4em;
-	}
-	.home .home-text{
-		font-size: 30px;
-	}
-	.profile-picture {
-		width: 280px;
-		margin-top: -40px;
-	}
-	.home .btn {
-		margin-top: 8px;
-	}
-	.about .title-typography, 
-	.skills .title-typography,
-	.works .title-typography,
-	.contact .title-typography {
-		font-size: 25px;
-	}
-	.about .title-typography::after,
-	.skills .title-typography::after,
-	.works .title-typography::after,
-	.contact .title-typography::after {
-		top: 2.5rem;
-	}
-	.about .typo-name{
-		margin-top: -90px;
-	}
-	.about .typography-name{
-		padding-bottom: 20px;
-	}
-	.about .profile-picture{
-		margin-top: -80px;
-		width: 230px;
-	}
-	.skills .progress {
-		margin-bottom: 1em;
-	  }
-	.skills .progress2{
-		margin-top: 30px;
-	}
-	.skills .progress progress {
-		width: 100%;
-		height: 20px;
-		background-color: #08BDBA;
-		margin-top: -1px;
-	}
-	.skill-picture{
-		width: 300px;
-	}
+  .home {
+    padding-top: 1em;
+    padding-bottom: 4em;
+  }
+  .home .home-text {
+    font-size: 30px;
+  }
+  .profile-picture {
+    width: 280px;
+    margin-top: -40px;
+  }
+  .home .btn {
+    margin-top: 8px;
+  }
+  .about .title-typography,
+  .skills .title-typography,
+  .works .title-typography,
+  .contact .title-typography {
+    font-size: 25px;
+  }
+  .about .title-typography::after,
+  .skills .title-typography::after,
+  .works .title-typography::after,
+  .contact .title-typography::after {
+    top: 2.5rem;
+  }
+  .about .typo-name {
+    margin-top: -90px;
+  }
+  .about .typography-name {
+    padding-bottom: 20px;
+  }
+  .about .profile-picture {
+    margin-top: -80px;
+    width: 230px;
+  }
+  .skills .progress {
+    margin-bottom: 1em;
+  }
+  .skills .progress2 {
+    margin-top: 30px;
+  }
+  .skills .progress progress {
+    width: 100%;
+    height: 20px;
+    background-color: #08bdba;
+    margin-top: -1px;
+  }
+  .skill-picture {
+    width: 300px;
+  }
 
-	.works .cardtocard{
-		margin-top: 10px;
-	}
-	.contact .input{
-		width: 300px;
-		margin-top: -1px;
-	}
+  .works .cardtocard {
+    margin-top: 10px;
+  }
+  .contact .input {
+    width: 300px;
+    margin-top: -1px;
+  }
 }
